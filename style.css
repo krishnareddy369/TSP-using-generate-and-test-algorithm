@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    text-align: center;
+}
+
+canvas {
+    border: 1px solid #000;
+    margin-top: 20px;
+}
+
+button {
+    margin-top: 10px;
+}
+
+#currentPath, #pathCost {
+    font-size: 18px;
+    margin-top: 10px;
+}

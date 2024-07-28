@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Traveling Salesman Problem</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Interactive Traveling Salesman Problem</h1>
+        <canvas id="tspCanvas" width="800" height="600" onclick="addCity(event)"></canvas>
+        <button onclick="solveTSP()">Solve TSP</button>
+        <p id="currentPath">Current Path: </p>
+        <p id="pathCost">Path Cost: </p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
